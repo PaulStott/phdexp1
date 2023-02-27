@@ -4,10 +4,8 @@ library(lme4)           #for GLMM building
 library(lmerTest)       #for better output from GLMMs
 library(emmeans)        #for our planned comparisons
 library(fitdistrplus)   #for Cullen and Frey plots
-library(performance)    #to check model assumptions
 library(ggpubr)         #for dataviz.
 library(kableExtra)     #for table output
-library(modelsummary)   #to output model summaries as .png
 
 #control scientific notation - makes reading p-values easier
 options("scipen"=100000, "digits"=10)
